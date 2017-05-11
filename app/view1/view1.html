@@ -1,0 +1,9 @@
+<div class="row templates">
+  <div ng-repeat="template in templates | limitTo:6">
+    <div class="col-md-6">
+      <h2><a href="{{template.trackViewUrl}}">Book title is {{template.trackName}}</a></h3>
+      <p ng-bind-html="template.description"></p>
+      <p>Price is {{template.price | currency : "£"}}</p>
+    </div>
+  </div>
+</div>

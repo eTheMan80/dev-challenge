@@ -1,0 +1,54 @@
+/* app css stylesheet */
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.masthead>p {
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+.container {
+    padding: 30px 20px;
+}
+
+.nav {
+    border: 2px solid #f4f4f4;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.nav li {
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.nav li:last-child {
+    border: none;
+}
+
+.col-md-6 br {
+    margin: 8px 0;
+}
+
+.row>div:nth-child(odd) {
+    clear: left;
+}
+
+@media screen and (min-width: 769px) {
+    .nav li {
+        border-right: 2px solid #f4f4f4;
+        border-bottom: none;
+    }
+    .nav li:last-child {
+        border: none;
+    }
+}
