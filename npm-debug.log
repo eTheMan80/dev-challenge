@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose stack C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\http-signature\node_modules\sshpk\node_modules\asn1\lib\ber\index.js:1
+4 verbose stack (function (exports, require, module, __filename, __dirname) {
+4 verbose stack
+4 verbose stack SyntaxError: Invalid or unexpected token
+4 verbose stack     at createScript (vm.js:56:10)
+4 verbose stack     at Object.runInThisContext (vm.js:97:10)
+4 verbose stack     at Module._compile (module.js:542:28)
+4 verbose stack     at Object.Module._extensions..js (module.js:579:10)
+4 verbose stack     at Module.load (module.js:487:32)
+4 verbose stack     at tryModuleLoad (module.js:446:12)
+4 verbose stack     at Function.Module._load (module.js:438:3)
+4 verbose stack     at Module.require (module.js:497:17)
+4 verbose stack     at require (internal/module.js:20:19)
+4 verbose stack     at Object.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\http-signature\node_modules\sshpk\node_modules\asn1\lib\index.js:6:11)
+5 verbose cwd C:\Users\Student 3_2\Documents\PROJECTS\dev-challenge
+6 error Windows_NT 6.3.9600
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+8 error node v6.10.3
+9 error npm  v3.10.10
+10 error Invalid or unexpected token
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
